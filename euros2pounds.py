@@ -9,7 +9,7 @@ try:
     total_amount = euro_amount * exchange_rate
     total_amount_with_commission = total_amount * (1 - commission_rate)
 
-    print(f"The total cost in pounds is: \u00A3{total_amount_with_commission:.2f} ")
+    print(f"The total amount received in pounds is: \u00A3{total_amount_with_commission:.2f} ")
 
 except ValueError:
     print("Invalid input. Please enter valid numbers.")
